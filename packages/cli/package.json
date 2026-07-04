@@ -21,7 +21,7 @@
     "chalk": "^5.4.1",
     "commander": "^15.0.0",
     "consola": "^3.4.2",
-    "inquirer": "^12.4.3"
+    "inquirer": "^14.0.2"
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.7",
