@@ -547,27 +547,27 @@ Each issue should include:
 
 Before applying, verify that all of the following are true:
 
-- [ ] Public GitHub repository
-- [ ] MIT License
-- [ ] Complete README
-- [ ] Contributing guide
-- [ ] Code of Conduct
-- [ ] Security policy
-- [ ] Changelog
-- [ ] Roadmap
-- [ ] CI passing
-- [ ] Automated tests
-- [ ] Example projects
-- [ ] Screenshots or demos
-- [ ] Meaningful commit history
-- [ ] Consistent code style
-- [ ] GitHub Releases
-- [ ] Project board configured
-- [ ] Labels configured
-- [ ] Milestones created
-- [ ] At least 30 high-quality issues
-- [ ] Clear setup instructions
-- [ ] Active development visible through commits
+- [x] Public GitHub repository
+- [x] MIT License
+- [x] Complete README
+- [x] Contributing guide
+- [x] Code of Conduct
+- [x] Security policy
+- [x] Changelog
+- [x] Roadmap
+- [x] CI passing
+- [x] Automated tests
+- [x] Example projects
+- [ ] Screenshots or demos (requires built app)
+- [x] Meaningful commit history
+- [x] Consistent code style
+- [x] GitHub Releases
+- [x] Project board configured
+- [x] Labels configured
+- [x] Milestones created
+- [x] At least 30 high-quality issues
+- [x] Clear setup instructions
+- [x] Active development visible through commits
 
 ---
 
@@ -575,12 +575,16 @@ Before applying, verify that all of the following are true:
 
 When the repository is ready:
 
-- Install the Drips Wave GitHub App.
-- Connect the GitHub organization or repository.
-- Ensure the repository is public and properly licensed.
-- Submit the repository to the Stellar Wave Program.
-- Complete the application form with accurate project information.
-- Link the README, documentation, roadmap, and supporting resources.
+- [x] Repository is public with MIT license
+- [x] Complete README and documentation
+- [x] CI/CD workflows configured
+- [x] 30+ well-scoped issues created
+- [x] Labels and milestones configured
+- [ ] Install the Drips Wave GitHub App at https://github.com/apps/drips-wave
+- [ ] Connect the repository to the Drips Wave app
+- [ ] Submit the repository to the Stellar Wave Program
+- [ ] Complete the application form with accurate project information
+- [ ] Link README, documentation, roadmap, and supporting resources
 
 ---
 
