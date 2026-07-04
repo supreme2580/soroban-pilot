@@ -1,0 +1,7 @@
+{
+  "name": "nextjs",
+  "description": "Next.js application with Stellar/Soroban integration",
+  "priority": 2,
+  "tags": ["nextjs", "react", "frontend", "ssr"],
+  "techStack": ["nextjs", "react", "typescript"]
+}

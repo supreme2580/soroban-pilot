@@ -1,0 +1,7 @@
+{
+  "name": "express",
+  "description": "Express API server with Stellar/Soroban integration",
+  "priority": 3,
+  "tags": ["express", "api", "backend", "node"],
+  "techStack": ["express", "typescript", "node"]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "soroban",
+  "description": "Soroban smart contract project",
+  "priority": 5,
+  "tags": ["soroban", "rust", "smart-contract", "stellar"],
+  "techStack": ["rust", "soroban-sdk"]
+}

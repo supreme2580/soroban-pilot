@@ -1,0 +1,7 @@
+{
+  "name": "fullstack",
+  "description": "Full-stack application with React frontend and Express API",
+  "priority": 4,
+  "tags": ["fullstack", "react", "express", "monorepo"],
+  "techStack": ["react", "express", "typescript", "node"]
+}

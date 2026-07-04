@@ -1,0 +1,19 @@
+{
+  "name": "@stellarpilot/templates",
+  "version": "0.0.1",
+  "description": "StellarPilot starter templates for Stellar & Soroban applications",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint src --fix",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3",
+    "vitest": "^3.1.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

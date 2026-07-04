@@ -1,0 +1,7 @@
+{
+  "name": "react",
+  "description": "React application with Stellar/Soroban integration",
+  "priority": 1,
+  "tags": ["react", "frontend", "web"],
+  "techStack": ["react", "typescript", "vite"]
+}
