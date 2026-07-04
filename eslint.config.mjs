@@ -5,7 +5,7 @@ export default tseslint.config(
   eslint.configs.recommended,
   ...tseslint.configs.recommended,
   {
-    ignores: ['node_modules', 'dist', 'coverage', 'pnpm-lock.yaml'],
+    ignores: ['node_modules', 'dist', 'build', 'coverage', '.docusaurus', 'pnpm-lock.yaml'],
   },
   {
     rules: {
