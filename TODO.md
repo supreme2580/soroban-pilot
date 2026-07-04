@@ -562,6 +562,8 @@ Before applying, verify that all of the following are true:
 - [x] Meaningful commit history
 - [x] Consistent code style
 - [x] GitHub Releases
+- [x] Discussions enabled
+- [x] Wiki enabled
 - [x] Project board configured
 - [x] Labels configured
 - [x] Milestones created
@@ -580,9 +582,9 @@ When the repository is ready:
 - [x] CI/CD workflows configured
 - [x] 30+ well-scoped issues created
 - [x] Labels and milestones configured
-- [ ] Install the Drips Wave GitHub App at https://github.com/apps/drips-wave
-- [ ] Connect the repository to the Drips Wave app
-- [ ] Submit the repository to the Stellar Wave Program
+- [x] Install the Drips Wave GitHub App at https://github.com/apps/drips-wave
+- [x] Connect the repository to the Drips Wave app
+- [ ] Submit the repository to the Stellar Wave Program (manual — visit https://waves.stellar.org)
 - [ ] Complete the application form with accurate project information
 - [ ] Link README, documentation, roadmap, and supporting resources
 
