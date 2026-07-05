@@ -4,7 +4,6 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
-![Wave Ready](https://img.shields.io/badge/Drips-Wave%20Ready-purple)
 ![Built with TypeScript](https://img.shields.io/badge/Built%20With-TypeScript-3178c6)
 
 ---
@@ -114,24 +113,7 @@ Examples of community templates:
 
 This gives contributors **meaningful, independent work**.
 
----
 
-## Why this matters for Drips Wave
-
-From the maintainer's perspective, there's a healthy, long-term backlog of well-scoped issues:
-
-- Add a new starter template
-- Improve an existing template
-- Write tests
-- Improve documentation
-- Add another wallet integration
-- Optimize deployment
-- Fix CLI bugs
-- Improve accessibility
-- Translate documentation
-- Add CI templates
-
----
 
 ## Core Packages
 

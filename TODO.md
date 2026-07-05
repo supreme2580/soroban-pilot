@@ -1,9 +1,5 @@
 # TODO.md
-# StellarPilot — From Zero to Drips Wave Application Ready
-
-> Mission:
->
-> Build StellarPilot into a professional, open-source, contributor-friendly developer toolkit for the Stellar ecosystem that is ready to be submitted as a repository to the Drips Wave (Stellar Wave) Program.
+# StellarPilot — Developer Toolkit for Stellar & Soroban
 
 ---
 
@@ -481,7 +477,7 @@ chore: prepare repository for community
 
 ---
 
-# Phase 15 — Prepare Wave Issues
+# Phase 15 — Prepare Issues
 
 Create at least **30 well-scoped GitHub Issues** before applying.
 
@@ -570,23 +566,6 @@ Before applying, verify that all of the following are true:
 - [x] At least 30 high-quality issues
 - [x] Clear setup instructions
 - [x] Active development visible through commits
-
----
-
-# Phase 17 — Drips Wave Application
-
-When the repository is ready:
-
-- [x] Repository is public with MIT license
-- [x] Complete README and documentation
-- [x] CI/CD workflows configured
-- [x] 30+ well-scoped issues created
-- [x] Labels and milestones configured
-- [x] Install the Drips Wave GitHub App at https://github.com/apps/drips-wave
-- [x] Connect the repository to the Drips Wave app
-- [ ] Submit the repository to the Stellar Wave Program (manual — visit https://waves.stellar.org)
-- [ ] Complete the application form with accurate project information
-- [ ] Link README, documentation, roadmap, and supporting resources
 
 ---
 
