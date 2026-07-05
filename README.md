@@ -1,6 +1,6 @@
 # 🚀 StellarPilot
 
-> The all-in-one open-source developer toolkit for building production-ready applications on the Stellar Network.
+> The toolbox every Stellar & Soroban developer installs first.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
@@ -9,420 +9,205 @@
 
 ---
 
-## Vision
+## What is StellarPilot?
 
-Building on Stellar should be fast, enjoyable, and accessible.
+StellarPilot is an **ecosystem**, not a single tool. Instead of doing one thing, it's a developer toolkit, package manager, template library, and learning platform for the Stellar network.
 
-Today, developers often spend more time wiring together wallets, contracts, deployment scripts, frontend integrations, and testing than building the features they actually care about.
-
-**StellarPilot** aims to change that.
-
-Our goal is to become the open-source toolkit that gives developers everything they need to start, build, test, deploy, and maintain modern Stellar and Soroban applications.
-
----
-
-# Why StellarPilot?
-
-Instead of searching across dozens of repositories, developers get one ecosystem that includes:
-
-- ⚡ Project scaffolding
-- 🔐 Wallet integrations
-- 📦 Reusable UI components
-- 🦀 Soroban smart contract templates
-- 🧪 Testing utilities
-- 📚 Documentation
-- 🚀 Deployment helpers
-- 🔍 Debugging tools
-- 💻 CLI utilities
-- 📖 Example applications
+| Existing Project | What it does | StellarPilot Equivalent |
+|---|---|---|
+| `create-next-app` | Creates a Next.js app | Creates a Stellar/Soroban app |
+| shadcn/ui | Ready-made UI components | Ready-made Stellar/Web3 components |
+| Awesome-\* lists | Curated resources | Curated Stellar resources and examples |
+| Supabase Examples | Reference implementations | Soroban reference implementations |
+| Hardhat | Ethereum dev toolkit | Soroban development toolkit |
+| Foundry | Smart contract tooling | Soroban tooling and utilities |
 
 ---
 
-# Core Packages
+## The Vision
 
-## CLI
+A developer wants to build an escrow app.
 
-Bootstrap new applications within minutes.
+Instead of spending hours searching GitHub, reading docs, and wiring everything together, they do:
 
 ```bash
-stellarpilot create my-app
+npx stellarpilot create escrow-app
 ```
 
-Features
+and immediately get:
 
-- Project generator
-- Template installer
-- Wallet setup
-- Deployment helpers
-- Project doctor
-- Dependency updater
+```
+escrow-app/
+  contracts/
+  frontend/
+  wallet/
+  tests/
+  docker/
+  README.md
+```
 
----
-
-## UI Library
-
-Production-ready frontend components.
-
-Examples:
-
-- Wallet Connect Button
-- Account Selector
-- Asset Picker
-- Transaction Status
-- QR Payment
-- NFT Card
-- Balance Display
-- Transaction History
-- Explorer Links
+Everything is already connected.
 
 ---
 
-## Soroban Templates
+## A Package Manager for Soroban
 
-Reusable smart contract templates.
+Already have a project and need a feature? Install it like components with shadcn/ui:
 
-Examples include
+```bash
+npx stellarpilot add wallet
+npx stellarpilot add nft
+npx stellarpilot add multisig
+npx stellarpilot add github-actions
+npx stellarpilot add escrow
+npx stellarpilot add payments
+npx stellarpilot add dao
+npx stellarpilot add nft-marketplace
+```
 
-- Escrow
-- Marketplace
-- Treasury
-- DAO
-- Staking
-- Vesting
-- Crowdfunding
-- Payroll
-- Multisig
-- Token
-- NFT
-- Lottery
+Each command copies **production-ready code** directly into your project.
 
 ---
 
-## Developer Toolkit
+## A Learning Platform
 
-Utilities for developers.
+Every feature links to a working example:
 
-Examples
+```
+Examples/
+  Wallet Login
+    ↓ Source Code
+    ↓ Architecture
+    ↓ Tutorial
+    ↓ Documentation
+```
 
-- Transaction inspector
-- Transaction decoder
-- Account explorer
-- Event parser
-- Contract deployment helper
-- Gas estimation
-- Benchmark tools
-- Local testing utilities
+Learn by running real projects instead of reading theory.
 
 ---
 
-## Examples
+## A Community Marketplace
 
-Complete reference projects.
+Eventually, contributors publish their own templates:
 
-Examples include
+```
+Community
+  ↓ Creates template
+  ↓ Pull Request
+  ↓ Reviewed
+  ↓ Merged
+  ↓ Available to everyone
+```
 
-- Wallet Starter
+Examples of community templates:
+
+- Payroll Starter
+- Crowdfunding Starter
 - NFT Marketplace
+- DAO Kit
+- Escrow Kit
+- Subscription Kit
 - Donation Platform
-- Payroll System
-- Subscription Platform
-- Crowdfunding App
-- Voting DApp
-- Escrow Platform
-- DAO Dashboard
-- Payment Gateway
+- Loyalty Program
+- Event Ticketing
+- Invoice Payments
+
+This gives contributors **meaningful, independent work**.
 
 ---
 
-# Project Structure
+## Why this matters for Drips Wave
+
+From the maintainer's perspective, there's a healthy, long-term backlog of well-scoped issues:
+
+- Add a new starter template
+- Improve an existing template
+- Write tests
+- Improve documentation
+- Add another wallet integration
+- Optimize deployment
+- Fix CLI bugs
+- Improve accessibility
+- Translate documentation
+- Add CI templates
+
+---
+
+## Core Packages
+
+| Package | Description |
+|---|---|
+| `cli` | Project scaffolding, feature installer, deployment |
+| `sdk` | Wallet helpers, Stellar utilities, transaction builder |
+| `ui` | Reusable React components for Stellar dApps |
+| `templates` | Starter templates for common project types |
+| `devtools` | Transaction inspector, decoder, gas estimation |
+
+---
+
+## Quick Start
+
+```bash
+npx stellarpilot create my-app
+cd my-app
+pnpm install
+pnpm dev
+```
+
+---
+
+## Project Structure
 
 ```
 stellarpilot/
-
-apps/
+  apps/
     docs/
     website/
-
-packages/
+  packages/
     cli/
     ui/
     sdk/
     devtools/
     templates/
-
-examples/
-
-docs/
-
-.github/
-
-scripts/
-
-tests/
+  examples/
+  docs/
+  .github/
+  scripts/
+  tests/
 ```
 
 ---
 
-# Roadmap
+## Tech Stack
 
-## Phase 1
-
-- Repository setup
-- Documentation
-- CLI foundation
-- CI/CD
-- Testing
-- Release workflow
+TypeScript · Node.js · React · Next.js · Rust · Soroban SDK · Vitest · ESLint · Prettier · GitHub Actions
 
 ---
 
-## Phase 2
+## Contributing
 
-- React templates
-- Next.js templates
-- Wallet integrations
-- Example projects
-
----
-
-## Phase 3
-
-- Soroban template library
-- Testing framework
-- Documentation website
-
----
-
-## Phase 4
-
-- Developer tools
-- Deployment utilities
-- Plugin architecture
-
----
-
-## Phase 5
-
-- Stable v1
-- Community plugins
-- Advanced templates
-
----
-
-# Architecture
-
-```
-Developer
-
-↓
-
-CLI
-
-↓
-
-Templates
-
-↓
-
-SDK
-
-↓
-
-Wallet Integration
-
-↓
-
-Soroban Contracts
-
-↓
-
-Deployment
-
-↓
-
-Testing
-
-↓
-
-Production
-```
-
----
-
-# Contributing
-
-We welcome contributors of all experience levels.
-
-There are many ways to contribute:
+We welcome contributors of all experience levels. There are many ways to contribute:
 
 - Documentation
 - Bug fixes
 - New templates
 - Testing
 - Examples
-- Performance improvements
-- Accessibility
-- CLI improvements
 - UI components
-- DevTools
 - Soroban contracts
-
-Every contribution should improve the experience of building on Stellar.
-
----
-
-# Issue Philosophy
-
-We believe contributors deserve issues that are:
-
-- Well scoped
-- Clearly documented
-- Impactful
-- Beginner-friendly when appropriate
-- Fully reproducible
-- Reviewed promptly
-
-Each issue should include:
-
-- Background
-- Objective
-- Acceptance criteria
-- Technical guidance
-- Suggested complexity
-- Testing requirements
+- CLI improvements
+- DevTools
 
 ---
 
-# Development Principles
+## License
 
-## Simplicity
-
-Developer experience comes first.
-
-## Quality
-
-Every feature should be production-ready.
-
-## Transparency
-
-Open discussions and open development.
-
-## Community
-
-Built with contributors, not just for them.
-
-## Documentation
-
-Every feature should be documented.
+MIT License. See [LICENSE](./LICENSE) for details.
 
 ---
 
-# Quality Standards
+## Get Involved
 
-Before any pull request is merged:
+⭐ Star the repository · 🐛 Report issues · 💡 Suggest features · 📖 Improve documentation · 🚀 Open a pull request
 
-- Tests must pass
-- Documentation updated
-- Examples verified
-- Code reviewed
-- Lint passes
-- Type checking passes
-
----
-
-# Repository Standards
-
-This repository includes
-
-- README
-- LICENSE
-- CONTRIBUTING
-- CODE_OF_CONDUCT
-- SECURITY
-- CHANGELOG
-- ROADMAP
-- ISSUE_TEMPLATE
-- PULL_REQUEST_TEMPLATE
-- GitHub Actions
-- Automated Releases
-
----
-
-# Planned Areas of Contribution
-
-This project continuously welcomes work related to:
-
-- Bug fixes
-- Documentation
-- Examples
-- Testing
-- Wallet integrations
-- Soroban templates
-- UI Components
-- Accessibility
-- Developer Experience
-- Performance
-- Automation
-- CI/CD
-- Security improvements
-
----
-
-# Long-Term Goals
-
-Our ambition is to make StellarPilot one of the most comprehensive open-source developer resources in the Stellar ecosystem by providing:
-
-- Production-ready templates
-- Best practices
-- Educational examples
-- Reusable tooling
-- Community-maintained packages
-
----
-
-# Tech Stack
-
-- TypeScript
-- Node.js
-- React
-- Next.js
-- Rust
-- Soroban SDK
-- Vitest
-- ESLint
-- Prettier
-- GitHub Actions
-
----
-
-# License
-
-MIT License.
-
-See LICENSE for details.
-
----
-
-# Acknowledgements
-
-Inspired by the open-source communities building incredible developer experiences across the web ecosystem.
-
-Special thanks to every contributor helping improve the Stellar ecosystem.
-
----
-
-# Get Involved
-
-⭐ Star the repository
-
-🐛 Report issues
-
-💡 Suggest features
-
-📖 Improve documentation
-
-🧪 Submit tests
-
-🚀 Open a pull request
-
-Together we can make building on Stellar simpler for everyone.
+**Together we can make building on Stellar simpler for everyone.**
